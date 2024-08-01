@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project RevoU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <header>
+            <!-- logo -->
+             <img src="assets/pngcat.png" alt="" class="logo-icon">
+            </header>
+            <section class="nav-container">
+                <!-- a class -->
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="#package">Our Package</a>
+                <a class="nav-item" href="#">Call Us</a>
+            </section>
+        </nav>
+        
+        <main>
+            <article>
+                <header>
+                    <h1>Your Trusted Travel Agent's</h1>
+                </header>
+                <p>Your happines is our happiness</p>
+        </article>
+        
+        <section class="main-content">
+            <article class="main-content-item">
+                <!-- autoslide -->
+                <div class="sliders">
+                    <div class="slider">
+                        <img src="assets/indonesia.jpeg" alt="logo">
+                    </div>
+                    <div class="slider">
+                        <img src="assets/travel.jpeg" alt="logo">
+                    </div>
+                    <div class="slider">
+                        <img src="assets/travel2.jpeg" alt="logo">
+                    </div>
+                    <script src="js/script.js"></script>
+                </div>
+                
+                <div class="review">
+                        <div class="qoute">
+                            <h5> <i>"Menginap di Pawpaw travel memberikan pengalaman mewah dengan pemandangan laut yang indah dan fasilitas spa yang menakjubkan."</i> </h5>
+                        </div>
+
+                        <div class="profil">
+                            <img class="foto-profil" src="assets/logo.jpg" alt="foto profil">
+                            <div class="informasi-profil">
+                                <h5>Audi Rahayu</h5>
+                                <small>PNS, 30</small>
+                            </div>
+                        </div>
+                        <a href="#package">SEE MORE</a>
+                </div>
+            </article>
+            
+            <article class="main-content-item">
+                <article class="contact-information">
+                    <h3>Contact Us</h3>
+                    <span>sales akan menghubungi anda 1x24 Jam setelah data kami terima.</span>
+                </article>
+                <br>
+                <form name="theForm" action="index.html" onsubmit="return validateForm(event)">
+                        <label for="name">Your Name:</label>
+                        <br> 
+                        <input  type="text" name="name" id="name" placeholder="First and Last Name">
+                        <br> 
+                        <br> 
+                        <label for="email">Email Address:</label>
+                        <br> 
+                        <input  type="email" name="email" id="email" placeholder="example@gmail.com"> 
+                        <br> 
+                        <br>
+                        <label for="contact">Contact Number:</label>
+                        <br> 
+                        <input  type="number" name="number" id="number" placeholder="+62..."> 
+                        <br> 
+                        <br> 
+                        <label for="interest">What Are You Interested In?</label>
+                        <br> 
+                        <select id="interest" name="interest" >
+                            <option value="hotel">Hotel</option>
+                            <option value="tPesawat">Tiket Pesawat</option>
+                            <option value="tKereta">Tiket Kereta Api</option>
+                            <option value="tBustravel">Tiket Bus & Travel</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="submit" value="SEND">
+                </form>
+            </article>   
+        </section>
+        <section class="main-content">
+            <div class="main-content-content">
+                <div class="qoute" id="follow-up">
+                    <h5><b>""</b></h5>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div class="small-teks">
+                        <p><b>Perjalanan Mudah: </b> Mengurus semua kebutuhan perjalanan Anda, mulai dari tiket, akomodasi, hingga itinerary, sehingga Anda bisa menikmati liburan tanpa pusing mengurus detailnya.</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div class="small-teks">
+                        <p><b>Harga Terjangkau dengan Layanan Terbaik:</b>
+                            Dapatkan penawaran terbaik dengan harga yang kompetitif dan layanan profesional dari tim kami yang berpengalaman.</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div class="small-teks">
+                        <p><b>Dukungan 24/7:</b>
+                            Layanan pelanggan kami siap membantu Anda kapan saja selama perjalanan, memastikan liburan Anda berjalan lancar dan bebas stres.</p>
+                    </div>
+                </div>
+            </div>
+            </article>
+        </section>
+
+        <article class="package" id="package">
+            <header>
+                <h1>Our Packages</h1>
+                <p><i> Travel far, travel wide, and travel often. The world is full of beautiful places waiting to be explored. </i></p>
+            </header>
+            
+        </article>
+        <section>
+            <div class="destination">
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="place">Bali</p>
+                        
+                        <div class="small-teks">
+                            <p>Bali menawarkan pemandangan pantai berpasir putih, sawah hijau terasering, dan matahari terbenam yang memukau, menjadikannya destinasi liburan impian yang tak terlupakan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="place">Japan</p>
+                        
+                        <div class="small-teks">
+                            <p>Jepang memadukan keindahan alam pegunungan, kuil bersejarah, dan teknologi canggih yang menciptakan pengalaman wisata unik dan memikat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="place">Singapore</p>
+                        
+                        <div class="small-teks">
+                            <p>Singapura menawarkan kemewahan kota metropolitan dengan taman hijau futuristik, pusat perbelanjaan kelas dunia, dan atraksi modern yang menakjubkan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="destination">
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="place">Bandung</p>
+                        
+                        <div class="small-teks">
+                            <p>Bandung memanjakan mata dengan pemandangan pegunungan yang sejuk, kebun teh yang hijau, serta destinasi belanja dan kuliner yang beragam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="place">Surabaya</p>
+                        
+                        <div class="small-teks">
+                            <p>memadukan sejarah kolonial, pusat perbelanjaan modern, dan keindahan pantai timur Jawa, menjadikannya destinasi wisata yang menarik dan beragam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="small-pict">
+                        <img src="assets/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="place">Yogyakarta</p>
+                        
+                        <div class="small-teks">
+                            <p>keindahan Candi Borobudur dan Prambanan, kekayaan budaya Jawa, serta pesona alamnya, menawarkan pengalaman wisata yang sarat akan sejarah dan tradisi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article class="package" id="closing">
+            <header>
+                <h1>Closing Argument Headline</h1>
+            </header>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non accusantium consequuntur, nam cupiditate odit minus exercitationem velit. Maxime voluptate quo facere nostrum aspernatur quod porro quisquam dolorum id ut!</span>
+            <br>
+            <br>
+            <button id="call">CALL TO ACTION</button>
+        </article>
+    </main>
+
+    <footer>
+        <img src="assets/pngcat.png" alt="" class="logo-icon" id="icon-footer">
+        <div>
+            <span>Terms Of Service</span>
+            <span>Privacy Policy</span>
+        </div>
+        <div>
+            <span>@2024</span>
+            <span>Pawpaw</span>
+        </div>
+    </footer>
+</body>
+</html>
